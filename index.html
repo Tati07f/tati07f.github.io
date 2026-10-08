@@ -1,113 +1,230 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
- <title>Tatiana Fedorova Portfolio</title>
- <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-  <link rel="stylesheet" href="css/styles.css">
-       
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tatiana Fedorova | Graphic Designer, Calgary</title>
+  <meta name="description" content="Graphic designer in Calgary. Brand applications, marketing and print design, photography and retouching, and UI design.">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-	<header>
-		<div class="row">
-			<div class="col">
-				<!--
-                <img class="style-logo" src="images/logocircle_ta.png" alt="logo">
-                -->
-                <h2 class="logo_name">Tatiana Fedorova</h2>
-				<nav class="style-nav">
-					<ul>
-						<li><a href="index.html">Portfolio</a></li>
-						<li><a href="about.html">About</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
-	
-	<main>
-		<div class="row">
-			<div class="col">
-				<div class="first_box">
-					<h1>HTML & CSS & JS</h1>
-                    <h4>Pages, effects and more</h4>
-					<a href="page_htmlcss.html" class="button">GO</a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col col-md-one-half">
-				<div class="info-box-tan">
-					<h2>PHP</h2>
-					<p>Forms, feedback and more</p>
-					
-                     <a href="page_python.html#php" class="button">GO</a>
-                   
-				</div>
-			</div>
-			<div class="col col-md-one-half">
-				<div class="info-box-dark">
-					<h2>Python</h2>
-					<p>Email, forms and more</p>
-					 
-                    <a href="page_python.html" class="button">GO</a>
-				</div>
-			</div>
-		</div>
-        <div class="row">
-			<div class="col">
-				<div class="design">
-					<h1>Graphic Design</h1>
-                    <h4>Menus, booklets, flyers, photos...</h4>
-					<a href="page_design.html" class="button">GO</a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-one-fourth" >
-                <div class="info-box">
-                    <img src="images/andoid250.png" class="div-image" alt="android development">
-                    
-                    
-                    <a href="page_android.html" class="button_b">GO</a>
-                </div>
-            </div>
-            
-			<div class="col-lg-one-fourth">
-                <div class="info-box">
-                    <img src="images/app250.png" class="div-image" alt="">
-                    
-                   <a href="page_ios.html" class="button_b">GO</a>
-                    
-                </div>
-            </div>
-            
-			<div class="col-lg-one-fourth">
-                <div class="info-box">
-                    <img src="images/c-sharp250.png" class="div-image" alt="">
-                    
-                   <a href="page_asp_net_c_sharp.html#c_sharp" class="button_b">GO</a>
-                </div> 
-            </div>
-            
-			<div class="col-lg-one-fourth">
-                <div class="info-box">
-                     <img src="images/aspnet250.png" class="div-image" alt="">
-                    
-                      <a href="page_asp_net_c_sharp.html" class="button_b">GO</a>
-                </div>
-            </div>
-		</div>
-	</main>
-	
-	<footer>
-		<div class="footer-main">
-			<p class="footer-text">Copyright © 2021 Tatiana Fedorova. Portfolio </p>
-		</div>
-	</footer>
-    
-   
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="images/logo.png" alt="" width="36" height="36"><span class="name">Tatiana Fedorova<span class="dot">.</span></span></a>
+    <nav class="nav">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Graphic Designer · Calgary, Alberta</div>
+      <h1>Clear, on-brand design for print and screen.</h1>
+      <p class="lead">I design brand materials, menus, campaigns and marketing collateral, shoot and retouch the photography that goes in them, and prepare files that are ready for print or for developers.</p>
+      <div class="actions">
+        <a class="btn" href="#work">See my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>13+ years</strong>agency, in-house and freelance design</div>
+        <div><strong>Print to digital</strong>brand, marketing, photo and UI</div>
+        <div><strong>Two diplomas</strong>Art &amp; Design, and Web &amp; Mobile Development</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Selected work</div>
+          <h2>Projects</h2>
+        </div>
+        <p>Brand and marketing work for restaurant, retail and hospitality clients, plus photography and interface design.</p>
+      </div>
+
+      <div class="grid">
+        <a class="card" href="work/yokoso.html">
+          <div class="thumb"><img src="images/work/yokoso2.jpg" alt="Yokoso delivery flyers and staff uniforms" loading="lazy"></div>
+          <h3>Yokoso</h3>
+          <p>Marketing design for a sushi delivery brand: menus, promotions, social posts and uniforms.</p>
+          <div class="tags"><span class="tag">Brand applications</span><span class="tag">Campaigns</span></div>
+        </a>
+        <a class="card" href="work/perzov.html">
+          <div class="thumb"><img src="images/work/perzov1.jpg" alt="Perzov restaurant menus and paper bag" loading="lazy"></div>
+          <h3>Perzov</h3>
+          <p>A complete menu system, bar menu, branded bags and promotions for a classic-style restaurant.</p>
+          <div class="tags"><span class="tag">Print</span><span class="tag">Photography</span></div>
+        </a>
+        <a class="card" href="work/bento.html">
+          <div class="thumb"><img src="images/work/bento1.jpg" alt="Bento restaurant menu spreads" loading="lazy"></div>
+          <h3>Bento</h3>
+          <p>Menus, brochures and flyers for a chain of Japanese restaurants, with food photo retouching.</p>
+          <div class="tags"><span class="tag">Layout</span><span class="tag">Retouching</span></div>
+        </a>
+        <a class="card" href="work/mambocino.html">
+          <div class="thumb"><img src="images/work/mambocino1.jpg" alt="Mambocino café menus and flyer" loading="lazy"></div>
+          <h3>Mambocino</h3>
+          <p>Food, drinks and specialty menus and flyers for a café, plus interior photography.</p>
+          <div class="tags"><span class="tag">Print</span><span class="tag">Photography</span></div>
+        </a>
+        <a class="card" href="work/art-cafe.html">
+          <div class="thumb"><img src="images/work/artcafe2.jpg" alt="Art Café menu pages" loading="lazy"></div>
+          <h3>Art Café</h3>
+          <p>Menus, brochures and advertising concepts for a restaurant.</p>
+          <div class="tags"><span class="tag">Layout</span><span class="tag">Advertising</span></div>
+        </a>
+        <a class="card" href="work/photography.html">
+          <div class="thumb"><img src="images/work/photo2.jpg" alt="Restaurant interior and food photography" loading="lazy"></div>
+          <h3>Photography &amp; Retouching</h3>
+          <p>Food, interior and exterior photography, retouched and prepared for print and layouts.</p>
+          <div class="tags"><span class="tag">Photo</span><span class="tag">Colour correction</span></div>
+        </a>
+        <a class="card" href="work/ui-design.html">
+          <div class="thumb"><img src="images/apps/nea-app-crop.jpg" alt="NEA clinic app screens" loading="lazy"></div>
+          <h3>Digital &amp; UI Design</h3>
+          <p>App and web interfaces designed screen by screen, then built during my development diploma.</p>
+          <div class="tags"><span class="tag">UI</span><span class="tag">Developer handoff</span></div>
+        </a>
+
+        <!-- PLACEHOLDER: replace with a real project card (copy one of the cards above) once the samples are ready. -->
+        <div class="card placeholder">
+          <div class="thumb"><img src="images/placeholders/logos.svg" alt="Placeholder image, not Tatiana's work: logo and identity samples to be added"></div>
+          <h3>Logos &amp; Brand Identity</h3>
+          <p class="muted">Logos, brand refreshes and simple brand guidelines that keep every touchpoint consistent.</p>
+        </div>
+      </div>
+
+      <!-- PLACEHOLDER: more slots for work samples still to be added. Delete any you do not need. -->
+      <div class="grid" style="margin-top:28px">
+        <div class="card placeholder">
+          <div class="thumb"><img src="images/placeholders/packaging.svg" alt="Placeholder image, not Tatiana's work: packaging samples to be added"></div>
+          <h3>Packaging</h3>
+          <p class="muted">Packaging and label design, from concept to print-ready dielines.</p>
+        </div>
+        <div class="card placeholder">
+          <div class="thumb"><img src="images/placeholders/brochures.svg" alt="Placeholder image, not Tatiana's work: brochure and outdoor samples to be added"></div>
+          <h3>Brochures &amp; Outdoor</h3>
+          <p class="muted">Brochures, signage, billboards and vehicle graphics, prepared for print vendors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">What I do</div>
+          <h2>Services</h2>
+        </div>
+      </div>
+      <div class="service-grid">
+        <div class="service">
+          <h3>Brand identity</h3>
+          <p>Logos, brand refreshes and packaging, applied consistently across every touchpoint.</p>
+        </div>
+        <div class="service">
+          <h3>Marketing &amp; print</h3>
+          <p>Brochures, menus, posters, ads, signage and event materials, delivered as press-ready files.</p>
+        </div>
+        <div class="service">
+          <h3>Photography</h3>
+          <p>Product, food and interior shoots with retouching, colour correction and compositing.</p>
+        </div>
+        <div class="service">
+          <h3>Digital &amp; UI</h3>
+          <p>Social and web graphics, plus app and website screens designed in Figma and handed off to developers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap split">
+      <div>
+        <div class="eyebrow">Design that is ready to build</div>
+        <h2>A designer who understands development</h2>
+        <p class="muted">My Web &amp; Mobile Development diploma means I design interfaces with real screen sizes, components and states in mind, and I can talk to developers in their own terms.</p>
+        <ul class="checklist">
+          <li>Wireframes, mockups and clickable prototypes in Figma</li>
+          <li>Responsive layouts for phone, tablet and desktop</li>
+          <li>Clean handoff: specs, exported assets and organized files</li>
+          <li>Comfortable updating website content and simple pages myself</li>
+        </ul>
+      </div>
+      <img src="images/apps/responsive-page.jpg" alt="Website design for a real estate training academy" loading="lazy">
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="eyebrow">Tools</div>
+      <h2>What I work with</h2>
+      <div class="tools">
+        <span>Adobe Illustrator</span>
+        <span>InDesign</span>
+        <span>Photoshop</span>
+        <span>Acrobat Pro</span>
+        <span>Figma</span>
+        <span>Premiere Pro</span>
+        <span>After Effects</span>
+        <span>Microsoft Office</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="services">
+    <div class="wrap about">
+      <!-- PLACEHOLDER: swap for a professional headshot (square, at least 700 x 700 px) when available. -->
+      <img src="images/me.jpg" alt="Tatiana Fedorova">
+      <div>
+        <div class="eyebrow">About</div>
+        <h2>Hi, I'm Tatiana.</h2>
+        <p>I'm a Calgary-based graphic designer with a background in fine art and more than thirteen years of design work for agencies, in-house marketing teams and my own freelance clients. I've designed everything from menus and brochures to billboards and vehicle graphics, and I often photograph and retouch the images that go into them.</p>
+        <p>I like organized files, clear brand rules and work that holds together across every channel. I'm used to juggling several projects at once, presenting ideas and turning feedback into finished work quickly.</p>
+        <ul class="timeline">
+          <li><div class="when">2011 – 2016</div><div><strong>Freelance Graphic Designer &amp; Photographer</strong><span>Restaurant, retail and hospitality clients</span></div></li>
+          <li><div class="when">2003 – 2011</div><div><strong>Graphic Designer</strong><span>Advertising agency and in-house marketing teams</span></div></li>
+          <li><div class="when">2019 – 2021</div><div><strong>Diploma in Web &amp; Mobile Development</strong><span>CDI College, Calgary</span></div></li>
+          <li><div class="when">1999 – 2003</div><div><strong>Diploma in Art &amp; Design</strong><span>College of Art</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="eyebrow">Contact</div>
+      <h2>Let's work together.</h2>
+      <div class="contact-links">
+        <a href="mailto:tatiana.fedorova.j@gmail.com"><small>Email</small>tatiana.fedorova.j@gmail.com</a>
+        <a href="https://www.linkedin.com/in/tatiana-fedorova-549882119" target="_blank" rel="noopener"><small>LinkedIn</small>tatiana-fedorova</a>
+      </div>
+      <!-- PLACEHOLDER: add a PDF resume as resume.pdf in this folder, then uncomment the line below. -->
+      <!-- <p style="margin-top:32px"><a class="btn ghost" style="color:#fff;border-color:#fff" href="resume.pdf">Download resume (PDF)</a></p> -->
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Tatiana Fedorova</span>
+    <span>Graphic Designer · Calgary, Alberta</span>
+  </div>
+</footer>
+
 </body>
 </html>
